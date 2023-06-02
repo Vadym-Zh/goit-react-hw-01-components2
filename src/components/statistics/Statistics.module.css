@@ -1,0 +1,62 @@
+.mainTitle {
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.statistics {
+    margin: 0px auto;
+    max-width: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 14%) 0px 1px 1px, rgb(0 0 0 / 20%) 0px 2px 1px;
+    border-radius: 0px 0px 4px 4px;
+
+    /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s; */
+}
+
+.statisticsWrap:hover {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    transform: scale(1.05);
+
+}
+
+.title {
+    padding: 30px;
+    margin: 0;
+    color: grey;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+.statisticsList {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* StatisticsItem */
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0%;
+    row-gap: 5px;
+    padding: 10px;
+    background-color: rgb(5, 245, 65);
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: (cubic-bezier(0.4, 0, 0.2, 1) 0s);
+}
+
+.item:nth-child(odd) {
+    background-color: aqua;
+}
+
+;
+
+.item:hover {
+    opacity: 0.7;
+}

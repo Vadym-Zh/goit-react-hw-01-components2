@@ -1,0 +1,7 @@
+/* @import-normalize; */
+
+.App {
+  text-align: center;
+  display: flex;
+  gap: 30px;
+}
