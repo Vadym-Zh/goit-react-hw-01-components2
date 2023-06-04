@@ -1,0 +1,23 @@
+/* StatisticsItem */
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0%;
+    row-gap: 5px;
+    padding: 10px;
+    background-color: rgb(5, 245, 65);
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: (cubic-bezier(0.4, 0, 0.2, 1) 0s);
+}
+
+.item:nth-child(odd) {
+    background-color: aqua;
+}
+
+;
+
+.item:hover {
+    opacity: 0.7;
+}

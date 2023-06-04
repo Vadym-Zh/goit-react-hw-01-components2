@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { StatisticsItem } from './StatisticsItem';
+import { StatisticsItem } from '../StatisticsItem/StatisticsItem';
 import css from './Statistics.module.css';
 
 export const Statistics = ({ title, stats }) => {
@@ -18,7 +18,7 @@ export const Statistics = ({ title, stats }) => {
   );
 };
 Statistics.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,

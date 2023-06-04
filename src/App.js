@@ -1,9 +1,9 @@
-import Normalize from 'react-normalize';
+// import Normalize from 'react-normalize';
 import './App.css';
-import { Profile } from './components/profile/Profile';
-import { Statistics } from 'components/statistics/Statistics';
-import { FriendList } from 'components/friendList/FriendList';
-import { TransactionHistory } from 'components/transactionHistory/TransactionHistory';
+import { Profile } from './components/Profile/Profile';
+import { Statistics } from 'components/Statistics/Statistics';
+import { FriendList } from 'components/FriendList/FriendList';
+import { TransactionHistory } from 'components/TtransactionHistory/TransactionHistory';
 import {
   userData,
   statsData,
@@ -14,7 +14,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <Normalize />
+      {/* <Normalize /> */}
       <Profile user={userData} />
       <Statistics title="Upload stats" stats={statsData} />
       <FriendList friends={friendsData} />

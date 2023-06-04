@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import css from './Statistics.module.css';
+import css from './StatisticsItem.module.css';
 
 export const StatisticsItem = ({ data: { label, percentage } }) => {
   return (
