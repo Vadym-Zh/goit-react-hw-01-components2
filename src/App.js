@@ -1,8 +1,8 @@
 // import Normalize from 'react-normalize';
 import './App.css';
-import { Profile } from './components/Profile1/Profile';
+import { Profile } from './components/Profile/Profile';
 import { Statistics } from './components/Statistics/Statistics';
-import { FriendList } from './components/FriendList1/FriendList';
+import { FriendList } from './components/FriendList/FriendList';
 import { TransactionHistory } from './components/TtransactionHistory/TransactionHistory';
 import {
   userData,
